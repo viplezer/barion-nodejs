@@ -1,0 +1,13 @@
+{
+  "name": "barion-nodejs",
+  "version": "1.0.3",
+  "description": "A compact Node.js module to manage online e-money and card payments via the *Barion Smart Gateway*.",
+  "main": "barion.js",
+  "author": "viplezer",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bl": "^1.2.1",
+    "http": "0.0.0",
+    "request": "^2.81.0"
+  }
+}
