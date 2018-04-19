@@ -237,7 +237,7 @@ var getPaymentStateOptionsWithBuilder = getPaymentStateRequestBuilder
     .setPaymentId('payment_id_in_the_barion_system')
     .build();
 
-barion.getPaymentState(getPaymentStateOptionsWithObject, function(err, data) {
+barion.getPaymentState(getPaymentStateOptionsWithBuilder, function(err, data) {
     if (!err) {
         handleData(data);
     } else {
